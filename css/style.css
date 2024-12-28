@@ -786,4 +786,37 @@ textarea {
     .email_lbl{position: relative;}
     .description{text-align: center;}
 
-    
+
+
+@media only screen and (max-width: 56.25em){
+  .about_cn_mn_style{
+    display: flex;
+    max-width: 90vw;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_cn_skills_styles{
+    display: flex;
+    max-width: 92vw;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tcen{
+  text-align: center;
+}
+.projects__row-img{
+  max-width: 91vw;
+}
+
+.skills__row-img{
+  max-width: 90vw;
+
+}
+
+.projects{
+  margin: 20rem 0 0 0;
+}
+
+}
