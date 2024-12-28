@@ -711,6 +711,8 @@ textarea {
       font-weight: bold;
       margin-left: 2px; }
     @media only screen and (max-width: 56.25em) {
+
+      
       .main-footer__lower {
         padding: 3.5rem 0; } }
 
@@ -819,4 +821,25 @@ textarea {
   margin: 20rem 0 0 0;
 }
 
+.mail_h{
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 40px;
+}
+}
+
+
+
+
+@media (min-width: 1024px) {
+  .mail_h {
+    font-weight: 200;
+    font-family: system-ui;
+    font-style: normal;
+    font-size: 29px;
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+
+  }
 }
